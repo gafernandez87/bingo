@@ -1,0 +1,50 @@
+.landing {
+    display: flex;
+    flex-flow: wrap column;
+    width: 400px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 2%;
+}
+.landing * {
+    align-self: center;
+}
+.title{
+    margin-bottom: 10%;
+}
+
+.newRoom {
+    width: 300px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    height: 200px;
+    padding: 0 20px;
+    -webkit-box-shadow: 7px 10px 19px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 19px -4px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 19px -4px rgba(0,0,0,0.75);
+}
+
+.subtitle {
+    font-weight: 600;
+    text-align: center;
+}
+.roomName {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+}
+.button{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 800;
+
+}

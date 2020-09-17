@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-flow: wrap column;
+    border: 1px solid #a1e49b;
+    background-color: white;
+    color: #3cc811;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.cell {
+    border: 1px solid #3cc811;
+    text-align: center;
+    position: relative;
+}
+
+.cell.empty {
+    background-color: #a1e49b;
+}
+
+.cell:hover{
+    cursor: pointer;
+}
+
+.card .markedNumber {
+    width: 50px;
+    left: 0;
+    position: absolute;
+}

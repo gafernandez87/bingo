@@ -1,0 +1,36 @@
+.game {
+  display: flex;
+  flex-flow: wrap row;
+  width: 70%;
+  background-color: white;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 2%;
+}
+
+
+.left {
+  width: 45%;
+  padding-right: 30px;
+  border-right: 1px solid black;
+}
+.right {
+  width: 45%;
+  padding-left: 3%;
+}
+
+.cardContainer {
+  width: 470px;
+  height: 170px;
+  padding: 30px;
+  background: white;
+}
+
+.allNumbers {
+  display: flex;
+  justify-content: center;
+}
+.allNumbers td{
+  padding: 5px;
+  text-align: center;
+}
